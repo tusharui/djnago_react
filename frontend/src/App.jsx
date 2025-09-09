@@ -32,6 +32,8 @@ function RegisterAndLogout(){
             } 
             />
             <Route  path = "/login"  element = {<Login/>} />
+            <Route  path = "/logout"  element = {<Logout/>} />
+
              <Route  path = "/home"  element = {<Home/>} />
               <Route  path = "/notfound"  element = {<Notfound/>} />
                <Route  path = "/register"  element = {<Register/>} />
